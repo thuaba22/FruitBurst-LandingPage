@@ -155,11 +155,123 @@
             </div>
           </section>
     </header>
-    <main>
-
+    <main class="md:container md:mx-auto">
+       <!-- Deal of the day section -->
+      <section class="mt-[70px]">
+        <!-- deal of the day info and countdown section -->
+        <div class="flex justify-between items-center">
+          <div>
+              <h2 class="text-[#121212] text-5xl font-extrabold">Deal of the day</h2>
+              <p class="text-[#565555] text-sm font-medium mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+         <div>
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              days
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+              </span>
+              hours
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+              </span>
+              min
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:29;"></span>
+              </span>
+              sec
+            </div>
+          </div>
+         </div>
+         </div>
+         <!-- deals card section -->
+         <div class="mt-12 grid grid-cols-4 gap-6">
+           <!-- card 1 -->
+           <div class="card bg-base-100 shadow-xl">
+            <figure><img  src="/images/fruit6.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h2>
+              <hr class="h-[1px]">
+              <p class="text-sm">Apples</p>
+              <div class="rating justify-center mt-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <a class="mt-4 text-[#F85559]" href="">Details</a>
+            </div>
+          </div>
+          <!-- card 2 -->
+           <div class="card  bg-base-100 shadow-xl">
+            <figure><img src="/images/fruit7.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h2>
+              <hr class="h-[1px]">
+              <p class="text-sm">Orange</p>
+              <div class="rating justify-center mt-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <a class="mt-4 text-[#F85559]" href="">Details</a>
+            </div>
+          </div>
+          <!-- card 3 -->
+           <div class="card  bg-base-100 shadow-xl">
+            <figure><img src="/images/fruit8.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h2>
+              <hr class="h-[1px]">
+              <p class="text-sm">Red Dragon</p>
+              <div class="rating justify-center mt-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <a class="mt-4 text-[#F85559]" href="">Details</a>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card  bg-base-100 shadow-xl">
+            <figure><img src="/images/fruit9.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h2>
+              <hr class="h-[1px]">
+              <p class="text-sm">Banana</p>
+              <div class="rating justify-center mt-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <a class="mt-4 text-[#F85559]" href="">Details</a>
+            </div>
+          </div>
+         </div>
+         <div class="flex justify-center">
+          <button class="btn bg-fruit-primary border-none text-white mt-12">Shop All</button>
+        </div>
+      </section>
+      
     </main>
     <footer>
-
+       
     </footer>
   </body>
 </html>
